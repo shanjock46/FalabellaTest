@@ -11,20 +11,20 @@ namespace falabella\PHP;
 
 class Display
 {
-    function displayAnswer($result) : void
+    function displayAnswer($result): void
     {
         switch ($result) {
-            case ($result->remainder35 == 0 ):
-                echo sprintf("%s\n","Linianos");
+            case ($result->remainder35 == 0):
+                echo sprintf("%s\n", "Linianos");
                 break;
             case ($result->remainder5 == 0):
-                echo sprintf("%s\n","IT");
+                echo sprintf("%s\n", "IT");
                 break;
-            case ($result->remainder3==0):
-                echo sprintf("%s\n","Linio");
+            case ($result->remainder3 == 0):
+                echo sprintf("%s\n", "Linio");
                 break;
             default:
-                echo sprintf("%s\n",$result->number);
+                echo sprintf("%s\n", $result->number);
         }
     }
 }

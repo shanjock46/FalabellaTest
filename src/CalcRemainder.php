@@ -10,16 +10,16 @@ namespace falabella\PHP;
 
 class CalcRemainder
 {
-    function calcRemainder($number,$param )
+    function calcRemainder($number, $param)
     {
         return $number % $param;
 
     }
 
 
-    function addRemainder($number3,$number5)
+    function addRemainder($number3, $number5)
     {
-        return $number3 +  $number5;
+        return $number3 + $number5;
     }
 
 }
